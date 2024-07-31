@@ -22,6 +22,7 @@
   },
   "repository": "github:srobroek/typescript-base-license",
   "scripts": {
+    "preinstall": "npx only-allow pnpm"
     "build": "tsc",
     "clean": "rm -rf dist docs node_modules tsconfig.tsbuildinfo",
     "dev": "tsx ./src/main.ts",
