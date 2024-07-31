@@ -13,7 +13,7 @@
 		/* Modules */
 		"module": "NodeNext",
 		"rootDir": "./src",
-		"moduleResolution": "NodeNext",
+		"moduleResolution": "bundler",
 		"typeRoots": ["./node_modules/@types", "./src/types"],
 		"resolvePackageJsonExports": true,
 		"resolvePackageJsonImports": true,
