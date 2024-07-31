@@ -2,11 +2,8 @@
   "name": "@srobroek/typescript-base-template",
   "version": "0.0.0",
   "description": "",
-  "keywords": [
-
-  ],
+  "keywords": [],
   "homepage": "https://github.com/srobroek/typescript-base-template.ts",
-
   "license": "Apache-2.0",
   "author": {
     "name": "Sjors Robroek",
@@ -22,7 +19,7 @@
   },
   "repository": "github:srobroek/typescript-base-license",
   "scripts": {
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
     "build": "tsc",
     "clean": "rm -rf dist docs node_modules tsconfig.tsbuildinfo",
     "dev": "tsx ./src/main.ts",
@@ -34,17 +31,17 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@eslint/js": "^9.7.0",
-    "eslint": "^9.7.0",
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.8.0",
     "markdownlint-cli2": "^0.13.0",
     "prettier": "^3.3.3",
-    "tsx": "^4.16.2",
-    "typedoc": "^0.26.4",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^7.16.1",
-    "vitest": "^2.0.3"
+    "tsx": "^4.16.3",
+    "typedoc": "^0.26.5",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^7.18.0",
+    "vitest": "^2.0.5"
   },
   "type": "module",
   "exports": {
@@ -54,5 +51,6 @@
     }
   },
   "types": "dist/index.d.ts",
-  "module": "dist/index.js"
+  "module": "dist/index.js",
+  "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
 }
