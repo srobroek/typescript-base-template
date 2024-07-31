@@ -6,14 +6,17 @@
 
 		/* Language and Environment */
 		"target": "ESNext",
-		"lib": ["DOM", "ESNext"],
+		"lib": [
+			"ESNext",
+			"dom"
+		],
 		"useDefineForClassFields": true,
 		"moduleDetection": "force",
 
 		/* Modules */
 		"module": "NodeNext",
 		"rootDir": "./src",
-		"moduleResolution": "bundler",
+		"moduleResolution": "NodeNext",
 		"typeRoots": ["./node_modules/@types", "./src/types"],
 		"resolvePackageJsonExports": true,
 		"resolvePackageJsonImports": true,
@@ -27,6 +30,7 @@
 		"sourceMap": true,
 		"outDir": "./dist",
 		"downlevelIteration": true,
+
 
 		/* Interop Constraints */
 		"isolatedModules": true,
@@ -58,5 +62,5 @@
 		/* Completeness */
 		"skipDefaultLibCheck": true,
 		"skipLibCheck": true
-	}
+	},
 }

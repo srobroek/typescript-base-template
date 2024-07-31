@@ -10,4 +10,3 @@
  * @module
  */
 
-console.log("Hello, world!")
