@@ -55,7 +55,7 @@ importers:
         version: 4.16.4
       typedoc:
         specifier: ^0.26.5
-        version: 0.26.5(typescript@5.5.4)
+        version: 0.26.6(typescript@5.5.4)
       typescript:
         specifier: ^5.5.4
         version: 5.5.4
@@ -963,8 +963,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@shikijs/core@1.12.0':
-    resolution: {integrity: sha512-mc1cLbm6UQ8RxLc0dZES7v5rkH+99LxQp/ZvTqV3NLyYsO/fD6JhEflP1H5b2SDq9gI0+0G36AVZWxvounfR9w==}
+  '@shikijs/core@1.14.1':
+    resolution: {integrity: sha512-KyHIIpKNaT20FtFPFjCQB5WVSTpLR/n+jQXhWHWVUMm9MaOaG9BGOG0MSyt7yA4+Lm+4c9rTc03tt3nYzeYSfw==}
 
   '@sindresorhus/merge-streams@2.3.0':
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
@@ -982,8 +982,8 @@ packages:
   '@types/node@22.0.2':
     resolution: {integrity: sha512-yPL6DyFwY5PiMVEwymNeqUTKsDczQBJ/5T7W/46RwLU/VH+AA8aT5TZkvBviLKLbbm0hlfftEkGrNzfRk/fofQ==}
 
-  '@types/unist@3.0.2':
-    resolution: {integrity: sha512-dqId9J8K/vGi5Zr7oo212BGii5m3q5Hxlkwy3WpYuKPklmBEvsbMYYyLxAQpSffdLl/gdW0XUpKWFvYmyoWCoQ==}
+  '@types/unist@3.0.3':
+    resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
   '@typescript-eslint/eslint-plugin@7.18.0':
     resolution: {integrity: sha512-94EQTWZ40mzBc42ATNIBimBEDltSJ9RQHCC8vc/PDbxi4k8dVwUAv4o98dk50M1zB+JGFxp43FP7f8+FP8R6Sw==}
@@ -1780,8 +1780,8 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  shiki@1.12.0:
-    resolution: {integrity: sha512-BuAxWOm5JhRcbSOl7XCei8wGjgJJonnV0oipUupPY58iULxUGyHhW5CF+9FRMuM1pcJ5cGEJGll1LusX6FwpPA==}
+  shiki@1.14.1:
+    resolution: {integrity: sha512-FujAN40NEejeXdzPt+3sZ3F2dx1U24BY2XTY01+MG8mbxCiA2XukXdcbyMyLAHJ/1AUUnQd1tZlvIjefWWEJeA==}
 
   siginfo@2.0.0:
     resolution: {integrity: sha512-ybx0WO1/8bSBLEWXZvEd7gMW3Sn3JFlW3TvX1nREbDLRNQNaeNN8WK0meBwPdAaOI7TtRRRJn/Es1zhrrCHu7g==}
@@ -1881,8 +1881,8 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
-  typedoc@0.26.5:
-    resolution: {integrity: sha512-Vn9YKdjKtDZqSk+by7beZ+xzkkr8T8CYoiasqyt4TTRFy5+UHzL/mF/o4wGBjRF+rlWQHDb0t6xCpA3JNL5phg==}
+  typedoc@0.26.6:
+    resolution: {integrity: sha512-SfEU3SH3wHNaxhFPjaZE2kNl/NFtLNW5c1oHsg7mti7GjmUj1Roq6osBQeMd+F4kL0BoRBBr8gQAuqBlfFu8LA==}
     engines: {node: '>= 18'}
     hasBin: true
     peerDependencies:
@@ -3030,7 +3030,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.19.1':
     optional: true
 
-  '@shikijs/core@1.12.0':
+  '@shikijs/core@1.14.1':
     dependencies:
       '@types/hast': 3.0.4
 
@@ -3040,7 +3040,7 @@ snapshots:
 
   '@types/hast@3.0.4':
     dependencies:
-      '@types/unist': 3.0.2
+      '@types/unist': 3.0.3
 
   '@types/minimist@1.2.5': {}
 
@@ -3048,7 +3048,7 @@ snapshots:
     dependencies:
       undici-types: 6.11.1
 
-  '@types/unist@3.0.2': {}
+  '@types/unist@3.0.3': {}
 
   '@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@9.9.0)(typescript@5.5.4))(eslint@9.9.0)(typescript@5.5.4)':
     dependencies:
@@ -3879,9 +3879,9 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  shiki@1.12.0:
+  shiki@1.14.1:
     dependencies:
-      '@shikijs/core': 1.12.0
+      '@shikijs/core': 1.14.1
       '@types/hast': 3.0.4
 
   siginfo@2.0.0: {}
@@ -3958,12 +3958,12 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  typedoc@0.26.5(typescript@5.5.4):
+  typedoc@0.26.6(typescript@5.5.4):
     dependencies:
       lunr: 2.3.9
       markdown-it: 14.1.0
       minimatch: 9.0.5
-      shiki: 1.12.0
+      shiki: 1.14.1
       typescript: 5.5.4
       yaml: 2.5.0
 
